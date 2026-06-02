@@ -8,6 +8,10 @@
 * MATE: `mate`
 * XFCE: `xfce`
 
+## Forking
+
+You can fork this to use it as a base for your own tracks, but be aware that the Github and Codeberg mirrors are read-only (and have pull requests disabled). If you want to propose your changes to this repo, use [the Gitlab](https://git.blendos.co/blendos/tracks).
+
 ## Example GNOME `/system.yaml` (vanilla)
 
 ```
