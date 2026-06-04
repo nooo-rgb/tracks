@@ -140,3 +140,10 @@ services:
 
 user-services:
   - 'blend-files'
+
+commands:
+  - 'systemctl enable cups'
+  - 'systemctl enable bluetooth'
+  - 'systemctl enable NetworkManager'
+  - 'systemctl enable power-profiles-daemon'
+  - 'systemctl enable fprintd'
