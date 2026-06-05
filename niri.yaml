@@ -1,0 +1,9 @@
+impl: 'https://github.com/nooo-rgb/tracks/'
+
+track: 'blendos-base
+
+packages:
+   - 'example'
+
+services:
+   - 'sddm'
