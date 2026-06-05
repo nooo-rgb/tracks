@@ -1,3 +1,6 @@
+repo: 'https://pkg-repo.blendos.co'
+arch-repo: 'https://geo.mirror.pkgbuild.com'
+impl: 'https://raw.githubusercontent.com/nooo-rgb/tracks/main'
 track: 'custom'
 
 package-repos:
