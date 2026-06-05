@@ -1,9 +1,7 @@
 track: "custom"
-
 package-repos:
   - name: "cachyos"
-    repo-url: "https://mirror.cachyos.org/repo/$arch/$repo"
-
+    repo-url: "https://mirror.cachyos.org/repo/x86_64_v3/$repo"
 packages:
   - "alsa-utils"
   - "amd-ucode"
@@ -12,7 +10,6 @@ packages:
   - "archlinux-keyring"
   - "base-devel"
   - "git"
-  - "bash"
   - "bzip2"
   - "coreutils"
   - "file"
@@ -39,8 +36,6 @@ packages:
   - "tar"
   - "util-linux"
   - "xz"
-  - "bash"
-  - "bash-completion"
   - "zsh"
   - "bind"
   - "blend"
@@ -130,20 +125,20 @@ packages:
   - "xl2tpd"
   - "networkmanager"
   - "ttf-jetbrains-mono"
-
+  - "zsh-completions"
 services:
   - "cups"
   - "bluetooth"
   - "NetworkManager"
   - "power-profiles-daemon"
   - "fprintd"
-
 user-services:
   - "blend-files"
-
 commands:
   - "systemctl enable cups"
   - "systemctl enable bluetooth"
   - "systemctl enable NetworkManager"
   - "systemctl enable power-profiles-daemon"
   - "systemctl enable fprintd"
+  - "chsh -s /bin/zsh root || true"
+  - "sed -i 's|^SHELL=.*|SHELL=/bin/zsh|' /etc/default/useradd || true"

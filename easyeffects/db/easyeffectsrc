@@ -1,0 +1,19 @@
+[Presets]
+lastLoadedInputPreset=Wave DX Default
+
+[StreamInputs]
+inputDevice=alsa_input.usb-Focusrite_Vocaster_One_USB_V1URRWF25006BB-00.HiFi__USB3__source
+listenToMic=true
+mostUsedPresets=Wave DX Default
+plugins=filter#0,compressor#0,deesser#0,rnnoise#0
+usedPresets=Wave DX Default:2
+visiblePage=pluginsPage
+visiblePlugin=filter#0
+
+[StreamOutputs]
+outputDevice=alsa_output.pci-0000_2b_00.1.hdmi-stereo
+visiblePage=pluginsPage
+
+[Window]
+height=1378
+width=1696
