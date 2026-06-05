@@ -138,15 +138,10 @@ packages:
   - 'wvdial'
   - 'xfsprogs'
   - 'xl2tpd'
-  - 'bluez'
-  - 'bluez-utils'
   - 'networkmanager'
-  - 'cups'
   - 'ttf-jetbrains-mono'
 
 services:
-  - 'cups'
-  - 'bluetooth'
   - 'NetworkManager'
   - 'power-profiles-daemon'
   - 'fprintd'
